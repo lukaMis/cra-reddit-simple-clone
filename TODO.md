@@ -1,3 +1,4 @@
 
-Add adding post option
-Add voting option for posts
+Done
+-  Add adding post option
+- Add voting option for posts
