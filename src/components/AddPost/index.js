@@ -19,7 +19,7 @@ class AddPost extends Component {
 
   handleSubmit(e) {
     e.preventDefault()
-    this.props.firebaseRef.push({
+    this.props.firebase.ref('posts').push({
       title: this.state.title
     })
     this.setState({
