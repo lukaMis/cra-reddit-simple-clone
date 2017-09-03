@@ -9,7 +9,7 @@ class App extends Component {
     this.state = {
       firebaseRef: null,
       posts: '',
-      loading: false
+      loading: true
     }
     firebase.initializeApp(config)
   }
